@@ -1,0 +1,21 @@
+{
+  "name": "Management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": "git@github.com:Letasian/Management.git",
+  "author": "Letasian <18770913233@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.15"
+  }
+}
