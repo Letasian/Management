@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      
+      {{text}}
   </div>
 </template>
 <script>
@@ -8,13 +8,13 @@ export default {
   name:'app',
   data(){
       return{
-
+        text:'abc'
       }
   }
 }
 </script>
-<style scoped>
-
+<style>
+#app{
+  color: red;
+}
 </style>
-
-
