@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      {{text}}
+      <router-view></router-view>
   </div>
 </template>
 <script>
@@ -8,13 +8,16 @@ export default {
   name:'app',
   data(){
       return{
-        text:'abc'
+        
       }
   }
 }
 </script>
 <style>
+@import "./css/reset.css";
 #app{
-  color: red;
+  width: 100%;
+  margin: 0 auto;
 }
 </style>
+
