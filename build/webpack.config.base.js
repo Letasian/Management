@@ -5,6 +5,7 @@ const {
     VueLoaderPlugin
 } = require('vue-loader')
 const config = {
+    mode:process.env.NODE_ENV || 'production',
     target: 'web',
     entry: path.join(__dirname, '../src/index.js'),
     output: {

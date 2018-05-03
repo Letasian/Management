@@ -49,8 +49,7 @@ if (isDev) {
         },
         devServer,
         plugins: defaultPlugins.concat([
-            new webpack.HotModuleReplacementPlugin(),
-            new webpack.NoEmitOnErrorsPlugin()
+            new webpack.HotModuleReplacementPlugin()
         ])
     })
 } else {
