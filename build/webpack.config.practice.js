@@ -22,7 +22,9 @@ const defaultPlugins=[
         }
     }),
     new VueLoaderPlugin(),
-    new HTMLPlugin()
+    new HTMLPlugin({
+        template:path.join(__dirname,'template.html')
+    })
 ]
 let config
 config = merge(baseConfig, {
