@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-      <img src="http://static.test.care001.cn/static/axure/hdzx/images/entrance/u3.png" alt="">
+  <div class="top-container">
+      <img src="http://b.ddguanhuai.com/Public/Qiye/asset/images/logo.png" alt="">
+      <el-button>退出登录</el-button>
   </div>
 </template>
 <script>
@@ -18,6 +19,9 @@ export default {
 .container img {
   width: 100%;
   height: auto;
+}
+.el-button{
+  
 }
 </style>
 
